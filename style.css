@@ -1,0 +1,690 @@
+/* DEFAULT CSS*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+.clear-float::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+}
+body,h1,h2,h3,h4,h5,h6,p,a,span,li{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* DEFAULT CSS*/
+
+
+/*HEADER CSS*/
+
+
+.header-section{
+    background: #000000;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 999;
+
+}
+.header-logo{
+    width: 30%;
+}
+.logo span{
+    font-size: 40px;
+    color: #ffffff;
+    font-weight: 800;
+    line-height: 50px;
+    transition: .5s;
+}
+.logo span:hover{
+    color: #E87F1C;
+}
+.header-menu{
+    width: 55%;
+}
+.primary-menu ul{
+    list-style: none;
+}
+.primary-menu ul li{
+    display: inline-block;
+}
+.primary-menu ul li a {
+    display: block;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #E87F1C;
+    line-height: 37px;
+    transition: .5s;
+  }
+.primary-menu ul li a:hover{
+    color: #ffffff;
+}
+.header-button{
+    width: 15%;
+}
+.default-button {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 600;
+    color: #000000;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 5px;
+    position: relative;
+    z-index: 5;
+    background: #E87F1C;
+  }
+  .default-button::before{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #ffffff;
+    border-radius: 10px;
+    z-index: -1;
+    transition: .5s;
+  }
+  .default-button:hover::before{
+    width: 100%;
+  }
+
+
+
+
+
+
+
+
+
+
+
+/*HEADER CSS*/
+
+
+/*BANNER SECTION CSS*/
+
+.banner-section{
+    background: url(img/pexels-photo-1181541.jpeg) no-repeat center/cover;
+    padding: 300px 0;
+}
+.banner-content h1 {
+    color: #E87F1C;
+    font-size: 70px;
+    letter-spacing: 6px;
+    font-weight: 800;
+    padding-bottom: 20px;
+  }
+  .banner-content p {
+    width: 60%;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 30px;
+    margin-bottom: 20px;
+    line-height: 2;
+  }
+  .banner-form input {
+    padding: 20px 40px;
+    width: 350px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #E87F1C;
+    outline: none;
+    border: none;
+    
+  }
+  .ban-btn{
+    width: 250px;
+    padding: 20px 40px;
+    font-size: 20px;
+    border: none;
+    margin-left: -4px;
+    transition: .5s;
+    font-weight: 400;
+    background: #E87F1C;
+    
+}
+.ban-btn:hover{
+  background: #939393;
+}
+
+
+/*BANNER SECTION CSS*/
+
+
+/*ABOUT SECTION CSS*/
+/*company SECTION CSS*/
+
+.company-section{
+  background: #F2F2F2;
+  padding: 100px 0 60px;
+}
+.company-left{
+  width: 48%;
+}
+.company-text h4 {
+  font-size: 25px;
+  font-weight: 200;
+  color: #6c6c6c;
+
+}
+.company-text h1 {
+  font-size: 55px;
+  line-height: 1.3;
+  padding-top: 20px;
+  font-weight: 700;
+  color: #E87F1C;
+}
+.company-text p {
+  font-size: 20px;
+  color: #4d4c4c;
+  padding: 20px 0;
+  font-weight: 200;
+}
+
+.company-right{
+  width: 48%;
+  min-height: 600px;
+  height: 100%;
+  background: url(img/pexels-photo-3727464.jpeg) no-repeat center center/cover;
+  margin-left: 2%;
+  
+}
+.h4{
+  margin-bottom: 20px;
+}
+/*company SECTION CSS*/
+
+.about-section{
+    background: #F2F2F2;
+    padding: 60px 0 80px;
+}
+.about-content{
+    background: #FFFFFF;
+    width: 25%;
+    padding: 20px 30px;
+    box-sizing: border-box;
+    
+ 
+    
+}
+.about-content h2{
+    padding-top: 10px;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #E87F1C;
+}  
+.about-content p {
+    font-size: 16px;
+    color: #8e8c8c;
+    margin-bottom: 61px;
+    line-height: 1.8;
+  } 
+  .line {
+    border: 10px solid #E87F1C;
+    margin-bottom: -20px;
+  }
+  .agency-section{
+    padding: 100px 0;
+    color: #ffffff;
+
+  }
+  .agency-con1{
+    width: 50%;
+    
+  }
+  .agency-con2{
+    width: 50%;
+    
+  }
+  .agency-text h1 {
+    font-size: 60px;
+    font-weight: 800;
+    color: #000;
+    word-spacing: 6px;
+  }
+  .agency-text p {
+    color: #000;
+    font-size: 30px;
+    font-weight: 500;
+   
+  }
+  .agency-img{
+    width: 300px;
+    margin-top: 30px;
+  }
+  .agency-p p {
+    color: #000;
+    font-size: 24px;
+    line-height: 1.7;
+  }
+  .percentage {
+    margin-top: 100px;
+  }
+  .agency-per1{
+    width: 49%;
+    background: #F2F2F2;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  .agency-per1 h2 {
+    font-size: 75px;
+    color: #E87F1C;
+  }
+  .agency-per1 p{
+    color: #000;
+    margin-top: 30px;
+  }
+  .agency-per2{
+    width: 49%;
+    background: #F2F2F2;
+    padding: 50px;
+    box-sizing: border-box;
+  }
+
+
+
+
+/*ABOUT SECTION CSS*/
+
+
+
+
+/*SERVICE SECTION CSS*/
+
+.service-section{
+  background: #F2F2F2;
+  padding: 80px 0;
+}
+.service-heading p{
+  font-size: 25px;
+  color: #000000;
+
+}
+.service-heading h1{
+
+  font-size: 70px;
+  color: #000;
+  font-weight: 600;
+
+}
+.service-item {
+  margin-top: 60px;
+}
+.service-box{
+  width: 33.33%;
+  background: #ffffff;
+  padding: 30px;
+}
+.service-icon span {
+  font-size: 60px;
+  color: #E87F1C;
+}
+.service-title h2 {
+  font-size: 34px;
+  font-weight: 600;
+  color: #000000;
+  margin-bottom: 20px;
+}
+.service-title p {
+  font-weight: 400;
+  color: #939393;
+  font-size: 20px;
+}
+.ser-border {
+  margin-top: 60px;
+  border: 10px solid #E87F1C;
+  margin-bottom: -30px;
+}
+/*SERVICE SECTION CSS*/
+
+
+
+/*CLIENT SECTION CSS*/
+.client-section{
+  padding: 100px 0 50px;
+  color: #FFFFFF;
+}
+.client-heading{
+  width: 48%;
+  margin-right: 2%;
+}
+.client-heading h1 {
+  color: #000;
+  font-size: 60px;
+  line-height: 1.4;
+}
+.client-heading p{
+  color: #000;
+  font-size: 20px;
+}
+.client-img{
+  width: 48%;
+  margin-left: 2%;
+ 
+}
+.client-content{
+  padding: 0 0 100px;
+}
+.client-left{
+  width: 60%;
+
+}
+client-right{
+  width: 40%;
+}
+.client-text{
+  width: 48%;
+  background: #ffffff;
+  margin-right: 2%;
+  margin-bottom: 10px;
+  padding: 40px;
+}
+.client-text h2 {
+  font-size: 100px;
+  font-weight: 900;
+  color: #E87F1C;
+}
+.client-text p{
+  font-size: 30px;
+}
+.client-text:nth-child(2){
+  margin-right: 0;
+  background: #F2F2F2;
+}
+.client-text:nth-child(3){
+  margin-right: 0;
+  background: #F2F2F2;
+}
+.client-address{
+  padding: 100px 0 ;
+}
+.address-box{
+  width: 31.33%;
+  margin-right: 2%;
+  background: #F2F2F2;
+  padding: 40px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.address-box img{
+  width: 100%;
+  clip-path: circle();
+  margin-top: -130px;
+}
+.address h3 {
+  color: #E87F1C;
+  font-size: 22px;
+  font-weight: 500;
+  margin-top: 20px;
+  
+}
+.address h2{
+  font-size: 30px;
+  margin: 30px 0;
+}
+.address p{
+  color: #939393;
+  font-size: 20px;
+}
+.address-icon ul{
+  list-style: none;
+}
+.address-icon ul li{
+  display: inline-block;
+}
+.address-icon ul li a {
+  display: block;
+  color: #E87F1C;
+  padding: 5px 5px;
+  font-size: 30px;
+  border-radius: 20%;
+  margin: 25px 10px 0;
+  transition: .8s;
+}
+
+
+
+
+
+
+
+
+/*CLIENT SECTION CSS*/
+
+
+
+
+
+
+/*pricing-section CSS*/
+
+
+.pricing-section{
+  padding: 60px 0;
+  background: #fff;
+}
+.pricing-heading p{
+  font-size: 25px;
+}
+.pricing-heading h1{
+  font-size: 50px;
+}
+.pricing-box{
+  width: 31.33%;
+  background: #F2F2F2;
+  margin-right: 2%;
+  padding: 40px;
+  margin-top: 50px;
+  box-shadow: 2px 2px 8px #a0a0a0;
+  border-radius: 20px;
+
+}
+.pricing-icon{
+  display: block;
+  font-size: 50px;
+  width: 90px;
+  margin: auto;
+  height: 90px;
+  border-radius: 50%;
+  background: #ffffff;
+  line-height: 90px;
+  color: #E87F1C;
+  transition: .5s;
+  
+}
+.pricing-icon:hover{
+      transform: rotate(180deg);
+      background: #E87F1C;
+      color: #000;
+}
+.pricing-text h1 {
+  font-size: 75px;
+  font-weight: 700;
+  color: #E87F1C;
+}
+.pricing-text p{
+  color: #000;
+  font-size: 25px;
+  padding: 20px 0;
+}
+.pricing-list ul{
+  list-style: none;
+}
+.pricing-list ul li{
+  display: block;
+  padding-bottom: 10px;
+}
+.pricing-button{
+  padding-top: 30px;
+}
+.price-border{
+  margin-bottom: -40px;
+}
+
+
+
+/*pricing-section CSS*/
+
+
+/*CONTACT-section CSS*/
+.contact-section{
+  padding: 100px 0;
+  background: #F2F2F2;
+}
+
+.contact-title-left{
+  width: 45%;
+  margin-right: 5%;
+}
+.contact-title-left h3 {
+  font-size: 25px;
+  font-weight: 400;
+}
+.contact-title-left h1 {
+  font-size: 45px;
+  font-weight: 700;
+  padding: 20px 0;
+  color: #E87F1C;
+}
+.contact-title-left p{
+  padding: 20px 0;
+  font-weight: 400;
+
+}
+.contact-title-left ul{
+  margin: 30px 0 30px 20px;
+}
+.contact-title-left ul li {
+  font-size: 23px;
+  font-weight: 500;
+}
+.contact-title-left h2{
+  color: #E87F1C;
+}
+.contact-form-right{
+  width: 50%;
+ 
+}
+.contact-form-right h3{
+  color: #E87F1C;
+  font-size: 25px;
+  font-weight: 400;
+  
+}
+.contact-form-right h2{
+  font-size: 30px;
+  font-weight: 800;
+  padding: 20px 0 40px;
+}
+.contact-form{
+  background: #e87f1c;
+  padding: 40px;
+  border-radius: 20px;
+  border: 2px solid #e87f1c;
+}
+.default-input{
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px 15px;
+  font-size: 16px;
+  border: 2px solid #E87F1C;
+  border-radius: 10px;
+  transition: all .5s; 
+  background: #F2F2F2;
+  color: #000000;
+  outline: none;
+ 
+}
+.contact-form .w100{
+  width: 100%;
+}
+.contact-form .w50{
+  width: 48%;
+}
+.contact-form input{
+  margin-bottom: 20px;
+}
+.contact-form label{
+  display: block;
+}
+.contact-form textarea{
+ height: 200px;
+ max-width: 100%;
+}
+.contact-form button{
+  border: none;
+  display: inline-block;
+  width: 200px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+  font-size: 16px;
+  background: #fff;
+  transition: .5s;
+  color: #E87F1C;
+  font-weight: 600;
+}
+.contact-form button:hover{
+  background: #f1f0f0;
+}
+
+
+/*CONTACT-section CSS*/
+
+.footer-section{
+  padding: 20px 0;
+}
+.footer-section span{
+  color: #E87F1C;
+  font-size: 25px;
+  font-weight: 500;
+}
+
